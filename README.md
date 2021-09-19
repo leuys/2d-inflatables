@@ -126,7 +126,7 @@ When the seam is to be done by hand, **a ruler or guiding template is recommende
     <figcaption>Tilt of the heating-element's contact area results in a subpar and spotty seam.</figcaption>
 </figure>
 
-With enough training, **a good enough seam by hand can be achieved.** But the **error margin** for inflatables is zero, meaning that one tiny hole, like a small blemish in the seam, lets seep through air that will lead to the deflection of the object over time. Although this can be negligible if a continuous air compressor is used for the inflation, for example for bigger objects.
+With enough training, **a good enough seam by hand can be achieved.** But the **error margin** for inflatables is zero, meaning that one tiny hole, like a small blemish in the seam, lets seep through air that will lead to the deflation of the object over time. Although this can be negligible if a continuous air compressor is used for the inflation, for example for bigger objects.
 
 The most recommendable tool is a **heated wheel welder**. The wheel makes the traveling motion easier, while simultaneously applying pressure. **Although tilt can still be an issue.**
 
