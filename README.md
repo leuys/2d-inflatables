@@ -1,28 +1,31 @@
 # Open design manual for fusing plastic sheets to create inflatables
 
+<img src="assets/intro.jpg" />
+
 ## Introduction
 
 This manual is intended to share all knowledge gathered while researching ways on how to heat-weld and fuse plastic sheets to create inflatable objects.
 
-It is seperated into three main chapters: **Materials, Tools, and Technique.**
+It is seperated into three main chapters: **Sheet material, Tools, and Technique.**
 
 {{TOC}}
 
 ---
 
-## Materials
+## Sheet material
 
 ### Types
 
-In order to fuse thin plastic sheet material, a thermosoftening polymer material has to be used (i.e. plastic that transitions into a liquid state when heated and hardens again after cooling). Such types of plastics, that are commonly available as thin sheet material, are for example: \
-**Polyethylene (PE), Polypropylene (PP), Polyvinyl chloride (PVC).** 
+<img src="assets/sheet-materials.jpg" width="50%">
+
+In order to fuse thin plastic sheet material, a thermosoftening polymer material has to be used (i.e. plastic that transitions into a liquid state when heated and hardens again after cooling). Such types of plastics, that are commonly available as thin sheet material, are for example: **Polyethylene (PE), Polypropylene (PP), Polyvinyl chloride (PVC).** 
 
 *→ Although PVC is not recommended due to [health concerns](https://en.wikipedia.org/wiki/Polyvinyl_chloride#Health_and_safety) (https://en.wikipedia.org/wiki/Polyvinyl_chloride#Health_and_safety)*
 
-**PE is most widely available** and comes in different variants, where low-density polyethylene, or **LDPE**, is used for sheets.
+**PE is most widely available** and comes in different variants, where low-density polyethylene, or **LDPE**, is generally used for sheets.
 
 **TPE** is another potential and interesting material, which should be more elastic as the previously stated. 
-(But the author has not tested or worked with TPE as of writing this manual)
+(But the author has not tested or worked with TPE as of writing this manual.)
 
 ### Thickness
 
@@ -101,7 +104,7 @@ Because the temperature of the heating element needs a certain transition time t
 
 | Material | Layer | ° C | mm/m | Q |
 |:--|:--|:--|:--|:--|
-| PE 100 my | backing paper | 250 | 150 | A |
+| PE 100 my | baking paper | 250 | 150 | A |
 | PE 50 my | PTFE 0,12 | 300 | 300 | A |
 | PE 50 my | PTFE 0,12 | 300 | 400 | C |
 | PE 100 my | PTFE 0,12 | 350 | 200 | B |
@@ -112,23 +115,34 @@ Because the temperature of the heating element needs a certain transition time t
 | PE 100 my | PTFE 0,08 | 350 | 400 | A-B |
 | PE 100 my | PTFE 0,08 | 400(!) | 400 | A |
 
-**Q = Quality, rated from A (very good) to F (bad)*
+**Q = Quality, rated from A (very good) to F (bad)*\
+**(!) Very high temperature, may damage heat-transfer layer*
 
 ### By hand
 
 When the seam is to be done by hand, **a ruler or guiding template is recommended.** Additionally, a very **smooth and consistent motion is important,** as simultaneously applying **moderate to strong contact pressure,** in order to press both sheets together, while **not tilting** the heating element. 
 
-	Foto tilt
+
+<figure>
+    <img src="assets/tilt.png" width="50%">
+    <figcaption>Tilt of the heating-element's contact area results in a subpar and spotty seam.</figcaption>
+</figure>
 
 With enough training, **a good enough seam by hand can be achieved.** But the **error margin** for inflatables is zero, meaning that one tiny hole, like a small blemish in the seam, lets seep through air that will lead to the deflection of the object over time. Although this can be negligible if a continuous air compressor is used for the inflation, for example for bigger objects.
 
 The most recommendable tool is a **heated wheel welder**. The wheel makes the traveling motion easier, while simultaneously applying pressure. **Although tilt can still be an issue.**
 
-<img src="assets/soldering-wheel.jpg" width="50%" />
+<figure>
+    <img src="assets/soldering-wheel.jpg" width="50%">
+    <figcaption>A soldering iron wheel build by using a knurling tool.</figcaption>
+</figure>
 
-Alternatively, a **soldering iron tip shaped like the end of a flat screwdriver** is also recommendable. Thanks to the **wide contact area** of the tip, paired with the ergonomic tangibility, the **danger of tilt is drastically decreased**.
+Alternatively, a **soldering iron tip shaped like the end of a flat head screwdriver** is also recommendable. Thanks to the **wide contact area** of the tip, paired with the ergonomic tangibility, the **danger of tilt is drastically decreased**.
 
-	Fotos flat tip
+<figure>
+    <img src="assets/flatheadtip.jpg" width="50%">
+    <figcaption>*(Demonstrated using a screwdriver.)*</figcaption>
+</figure>
 
 #### Using adhesive
 
@@ -144,11 +158,17 @@ The use of computer numerically controlled tools help to tackle the zero error m
 
 #### 3D printer
 
-<img src="assets/3dprinter.png" width="50%" />
+<figure>
+    <img src="assets/3dprinter.png" width="50%" />
+    <figcaption>Welding seams using a Ultimaker Original 3D printer.</figcaption>
+</figure>
 
 FDM 3D printers are widely available, well documented, and easy to use. The heated print head reaches sufficient temperature. Due to a broad range of accessories, **custom build nozzles** can be manufactured, to achieve a wide enough seam. 
 
-<img src="assets/nozzles.jpg" width="50%" />
+<figure>
+    <img src="assets/nozzles.jpg" width="50%" />
+    <figcaption>The nozzle on the right does not feature a hole and can be ground down, to make a wider contact area for welding the seams.</figcaption>
+</figure>
 
 *→ Nozzle temperatures above 250° C can take a while, or are not supported by many mainstream 3D printers. Build volume is also another issue, limiting the size of the inflatable object significantly.*
 
@@ -159,8 +179,6 @@ CNC frames offer the **broadest range of workability.** A **soldering iron, or a
 ##### Two-axis (X,Y)
 
 For two-axis CNC frames, the **tool lift** can be achieved via an additional **servo motor** controlled by a boolean signal (has to be supported by the control board). Such robots are commonly known as 'draw bots', 'XY plotters', or 'laser cutters'. Instead of a pen or a laser, an independently controlled soldering iron is used.
-
-	Fotos servo
 
 *→ Two-axis CNC frames without tool lift can also be used, when the traveling motion is fast enough. Although the danger of creases in increased (see chapter 'Creases').*
 
@@ -178,7 +196,10 @@ The **Z-axis** also gives the possibility to utilize **lead-in and lead-out para
 
 Build kits for three-axis CNC frames are available. It is possible to use a two-axis frame with an added third Z-axis. (Such as the 'EleksZAxis with a three axis control board' for the '[EleksLaser A3 Pro](https://wiki.eleksmaker.com/doku.php?id=elekszaxis2019)' [https://wiki.eleksmaker.com/doku.php?id=elekszaxis2019].)
 
-<img src="assets/eleksmaker.jpg" width="50%" />
+<figure>
+    <img src="assets/eleksmaker.jpg" width="50%" />
+    <figcaption>Repurposed EleksMaker with added Z-Axis and three-axis control board, running grbl 1.1h.</figcaption>
+</figure>
 
 #### Software
 
@@ -208,6 +229,8 @@ An air-tight seam is created by **layering two plastic sheets** on top of each o
 
 **By using this method of welding, an critical source of failure is introduced!**
 
+<img src="assets/seam-thin.png" width="50%" />
+
 Because the sheets are getting pressed on while in a liquid state, the force of the pressure thins the material at the seams. **Thus the mechanical properties of the sheet at the edges of the seam is reduced.** The edges of the seam are precarious breaking points, **mandating a strategy for distributing tear load along the seam.** \
 **This is why a wider seam does not generally mean a stronger seam.**
 
@@ -215,19 +238,33 @@ Because the sheets are getting pressed on while in a liquid state, the force of 
 
 Tearing is the most common force acting upon the seam. Air pressure from inflation, as well as pulling on the foil are sources of tearing forces. Generally speaking **the longer the seam the better the force gets distributed.** 
 
-- **Concave seams are stronger**
-- **Convex seams are critical**
+- **Concave curves are stronger**
+- **Convex curves are critical**
 
 The above is a **good rule of thumb**. It is to be understood as when viewed from the source of the tearing force. *(For example when inflating a circle, the source of the tearing force is the center of the circle.)*
 
-	Fotos naht concave convex
+<figure>
+    <img src="assets/force-peak.png" width="50%" />
+    <figcaption>Force from inflation exerts stronger influence on the convex curve.</figcaption>
+</figure>
 	
 - **Do use lead-in and lead-out** parameters (horizontal and/or vertical)
+
+<figure>
+    <img src="assets/lead.png" width="50%" />
+    <figcaption>Helical lead-in and lead-out tool paths using Fusion 360 CAM functions.</figcaption>
+</figure>
+
 - **Don't use too much contact pressure,** as the seam will be pressed too thin.
 
 #### Radius
 
 **The size of a radius has to be relative to the size of the inflated volume.**
+
+<figure>
+    <img src="assets/radius.png" width="50%" />
+    <figcaption>The same radius can lead to issues because the increased volume when inflated exerts a higher force.</figcaption>
+</figure>
 
 **A good starting point is to use radius bigger than 25 mm.**
 
@@ -247,16 +284,27 @@ This can be circumvented by doing the following before welding:
 - **Smoothening** the sheets by swiping over it by hand
 - **Taping** or clamping down the sheets
 
-<img src="assets/ironing.jpg" width="50%" />
+<figure>
+    <img src="assets/ironing.jpg" width="50%" />
+    <figcaption>Ironed sheets.</figcaption>
+</figure>
 
-*→ Overstretching the foil or too intense ironing will create creases.*
+*→ Overstretching the foil or too intense ironing will introduce creases.*
 
 ### Creating valves
 
 Valves can either be bought and welded on, or can be created in the form of a thin air channel, that is squeezed shut, or roll up tight after inflation.
 
-<img src="assets/valve.jpg" width="49%" />
-<img src="assets/valve-shut.jpg" width="49%" />
+
+<figure>
+    <img src="assets/valve.jpg" width="50%" />
+    <figcaption>A thin air channel, open on one side, acts as a valve.</figcaption>
+</figure>
+
+<figure>
+    <img src="assets/valve-shut.jpg" width="50%" />
+    <figcaption>The valve can be closed by using a simple bag clip.</figcaption>
+</figure>
 
 ### Transitioning from 2D to 3D
 
@@ -271,5 +319,15 @@ Oftentimes the inflated shape will warp or tort. This behavior can be studied wi
 
 Some CAD programs feature air **inflation functionalities and cloth simulation**, like 'Blender' or 'Rhino' using 'Grasshopper'. These tools can further help when developing inflatables.
 
-<img src="assets/torsion.jpg" width="49%" />
-<img src="assets/warp.jpg" width="49%" />
+<figure>
+    <img src="assets/warp-torsion.jpg" width="50%"/>
+    <figcaption>Warping and torsion after inflating the flat 2D sheets.</figcaption>
+</figure>
+
+## Further links
+
+[CNC welding of plastic foil and film – fast product development](https://www.youtube.com/watch?v=KKEZ3mBz4cU)\
+(https://www.youtube.com/watch?v=KKEZ3mBz4cU)
+
+[The INFLATOCOOKBOOK](http://inflatocookbook.kadist.org)\
+(http://inflatocookbook.kadist.org)
