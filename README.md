@@ -134,6 +134,8 @@ The most recommendable tool is a **heated wheel welder**. The wheel makes the tr
     <img src="assets/soldering-wheel.jpg" width="50%">
     <figcaption>A soldering iron wheel build by using a knurling tool.</figcaption>
 </figure>
+<br/>
+<br/>
 
 Alternatively, a **soldering iron tip shaped like the end of a flat head screwdriver** is also recommendable. Thanks to the **wide contact area** of the tip, paired with the ergonomic tangibility, the **danger of tilt is drastically decreased**.
 
@@ -160,6 +162,8 @@ The use of computer numerically controlled tools help to tackle the zero error m
     <img src="assets/3dprinter.png" width="50%" />
     <figcaption>Welding seams using a Ultimaker Original 3D printer.</figcaption>
 </figure>
+<br/>
+<br/>
 
 FDM 3D printers are widely available, well documented, and easy to use. The heated print head reaches sufficient temperature. Due to a broad range of accessories, **custom build nozzles** can be manufactured, to achieve a wide enough seam. 
 
@@ -167,6 +171,8 @@ FDM 3D printers are widely available, well documented, and easy to use. The heat
     <img src="assets/nozzles.jpg" width="50%" />
     <figcaption>The nozzle on the right does not feature a hole and can be ground down, to make a wider contact area for welding the seams.</figcaption>
 </figure>
+<br/>
+<br/>
 
 *→ Nozzle temperatures above 250° C can take a while, or are not supported by many mainstream 3D printers. Build volume is also another issue, limiting the size of the inflatable object significantly.*
 
@@ -267,6 +273,8 @@ The above is a **good rule of thumb**. It is to be understood as when viewed fro
     <img src="assets/radius.png" width="50%" />
     <figcaption>The same radius can lead to issues because the increased volume when inflated exerts a higher force.</figcaption>
 </figure>
+<br/>
+<br/>
 
 **A good starting point is to use radius bigger than 25 mm.**
 
@@ -290,6 +298,8 @@ This can be circumvented by doing the following before welding:
     <img src="assets/ironing.jpg" width="50%" />
     <figcaption>Ironed sheets.</figcaption>
 </figure>
+<br/>
+<br/>
 
 *→ Overstretching the foil or too intense ironing will introduce creases.*
 
@@ -302,11 +312,15 @@ Valves can either be bought and welded on, or can be created in the form of a th
     <img src="assets/valve.jpg" width="50%" />
     <figcaption>A thin air channel, open on one side, acts as a valve.</figcaption>
 </figure>
+<br/>
+<br/>
 
 <figure>
     <img src="assets/valve-shut.jpg" width="50%" />
     <figcaption>The valve can be closed by using a simple bag clip.</figcaption>
 </figure>
+<br/>
+<br/>
 
 ### Transitioning from 2D to 3D
 
@@ -325,6 +339,7 @@ Some CAD programs feature air **inflation functionalities and cloth simulation**
     <img src="assets/warp-torsion.jpg" width="50%"/>
     <figcaption>Warping and torsion after inflating the flat 2D sheets.</figcaption>
 </figure>
+<br/>
 
 ## Further links
 
