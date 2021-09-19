@@ -1,7 +1,5 @@
 # Open design manual for fusing plastic sheets to create inflatables
 
----
-
 ## Introduction
 
 This manual is intended to share all knowledge gathered while researching ways on how to heat-weld and fuse plastic sheets to create inflatable objects.
