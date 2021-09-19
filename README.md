@@ -253,6 +253,7 @@ The above is a **good rule of thumb**. It is to be understood as when viewed fro
     <figcaption>Helical lead-in and lead-out tool paths using Fusion 360 CAM functions.</figcaption>
 </figure>
 
+
 - **Don't use too much contact pressure,** as the seam will be pressed too thin.
 
 #### Radius
