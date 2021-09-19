@@ -244,16 +244,18 @@ The above is a **good rule of thumb**. It is to be understood as when viewed fro
 <figure>
     <img src="assets/force-peak.png" width="50%" />
     <figcaption>Force from inflation exerts stronger influence on the convex curve.</figcaption>
-</figure>\
-\
+</figure>
+<br/>
+<br/>
 
 - **Do use lead-in and lead-out** parameters (horizontal and/or vertical)
 
 <figure>
     <img src="assets/lead.png" width="50%" />
     <figcaption>Helical lead-in and lead-out tool paths using Fusion 360 CAM functions.</figcaption>
-</figure>\
-\
+</figure>
+<br/>
+<br/>
 
 - **Don't use too much contact pressure,** as the seam will be pressed too thin.
 
