@@ -137,7 +137,7 @@ The most recommendable tool is a **heated wheel welder**. The wheel makes the tr
 <br/>
 <br/>
 
-Alternatively, a **soldering iron tip shaped like the end of a flat head screwdriver** is also recommendable. Thanks to the **wide contact area** of the tip, paired with the ergonomic tangibility, the **danger of tilt is drastically decreased**.
+Alternatively, a **soldering iron tip shaped like the end of a flat head screwdriver** is also recommendable. Thanks to the **wide contact area** of the tip, paired with the ergonomic tangibility, the **danger of tilt is decreased**.
 
 <figure>
     <img src="assets/flatheadtip.jpg" width="50%">
