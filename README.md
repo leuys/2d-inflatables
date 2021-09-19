@@ -1,10 +1,5 @@
 # Open design manual for fusing plastic sheets to create inflatables
 
-Version: 1.0\
-Author: Benjamin Unterluggauer\
-Last updated: 2021-Sept-18\
-Licensed under Creative Commons Zero v1.0 Universal
-
 ---
 
 ## Introduction
