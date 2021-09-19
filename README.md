@@ -118,11 +118,17 @@ Because the temperature of the heating element needs a certain transition time t
 
 When the seam is to be done by hand, **a ruler or guiding template is recommended.** Additionally, a very **smooth and consistent motion is important,** as simultaneously applying **moderate to strong contact pressure,** in order to press both sheets together, while **not tilting** the heating element. 
 
+	Foto tilt
+
 With enough training, **a good enough seam by hand can be achieved.** But the **error margin** for inflatables is zero, meaning that one tiny hole, like a small blemish in the seam, lets seep through air that will lead to the deflection of the object over time. Although this can be negligible if a continuous air compressor is used for the inflation, for example for bigger objects.
 
 The most recommendable tool is a **heated wheel welder**. The wheel makes the traveling motion easier, while simultaneously applying pressure. **Although tilt can still be an issue.**
 
+<img src="assets/soldering-wheel.jpg" width="50%" />
+
 Alternatively, a **soldering iron tip shaped like the end of a flat screwdriver** is also recommendable. Thanks to the **wide contact area** of the tip, paired with the ergonomic tangibility, the **danger of tilt is drastically decreased**.
+
+	Fotos flat tip
 
 #### Using adhesive
 
@@ -138,7 +144,11 @@ The use of computer numerically controlled tools help to tackle the zero error m
 
 #### 3D printer
 
+<img src="assets/3dprinter.png" width="50%" />
+
 FDM 3D printers are widely available, well documented, and easy to use. The heated print head reaches sufficient temperature. Due to a broad range of accessories, **custom build nozzles** can be manufactured, to achieve a wide enough seam. 
+
+<img src="assets/nozzles.jpg" width="50%" />
 
 *→ Nozzle temperatures above 250° C can take a while, or are not supported by many mainstream 3D printers. Build volume is also another issue, limiting the size of the inflatable object significantly.*
 
@@ -149,6 +159,8 @@ CNC frames offer the **broadest range of workability.** A **soldering iron, or a
 ##### Two-axis (X,Y)
 
 For two-axis CNC frames, the **tool lift** can be achieved via an additional **servo motor** controlled by a boolean signal (has to be supported by the control board). Such robots are commonly known as 'draw bots', 'XY plotters', or 'laser cutters'. Instead of a pen or a laser, an independently controlled soldering iron is used.
+
+	Fotos servo
 
 *→ Two-axis CNC frames without tool lift can also be used, when the traveling motion is fast enough. Although the danger of creases in increased (see chapter 'Creases').*
 
@@ -166,7 +178,7 @@ The **Z-axis** also gives the possibility to utilize **lead-in and lead-out para
 
 Build kits for three-axis CNC frames are available. It is possible to use a two-axis frame with an added third Z-axis. (Such as the 'EleksZAxis with a three axis control board' for the '[EleksLaser A3 Pro](https://wiki.eleksmaker.com/doku.php?id=elekszaxis2019)' [https://wiki.eleksmaker.com/doku.php?id=elekszaxis2019].)
 
-<img src="eleksmaker.jpg" width="50%" />
+<img src="assets/eleksmaker.jpg" width="50%" />
 
 #### Software
 
@@ -207,6 +219,8 @@ Tearing is the most common force acting upon the seam. Air pressure from inflati
 - **Convex seams are critical**
 
 The above is a **good rule of thumb**. It is to be understood as when viewed from the source of the tearing force. *(For example when inflating a circle, the source of the tearing force is the center of the circle.)*
+
+	Fotos naht concave convex
 	
 - **Do use lead-in and lead-out** parameters (horizontal and/or vertical)
 - **Don't use too much contact pressure,** as the seam will be pressed too thin.
@@ -233,11 +247,16 @@ This can be circumvented by doing the following before welding:
 - **Smoothening** the sheets by swiping over it by hand
 - **Taping** or clamping down the sheets
 
+<img src="assets/ironing.jpg" width="50%" />
+
 *→ Overstretching the foil or too intense ironing will create creases.*
 
 ### Creating valves
 
 Valves can either be bought and welded on, or can be created in the form of a thin air channel, that is squeezed shut, or roll up tight after inflation.
+
+<img src="assets/valve.jpg" width="49%" />
+<img src="assets/valve-shut.jpg" width="49%" />
 
 ### Transitioning from 2D to 3D
 
@@ -251,3 +270,6 @@ There is a research paper on this subject:
 Oftentimes the inflated shape will warp or tort. This behavior can be studied with the help of this online tool: [Origami Generator](https://origamisimulator.org) (https://origamisimulator.org)
 
 Some CAD programs feature air **inflation functionalities and cloth simulation**, like 'Blender' or 'Rhino' using 'Grasshopper'. These tools can further help when developing inflatables.
+
+<img src="assets/torsion.jpg" width="49%" />
+<img src="assets/warp.jpg" width="49%" />
