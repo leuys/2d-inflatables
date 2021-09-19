@@ -8,8 +8,6 @@ This manual is intended to share all knowledge gathered while researching ways o
 
 It is seperated into three main chapters: **Sheet material, Tools, and Technique.**
 
-{{TOC}}
-
 ---
 
 ## Sheet material
