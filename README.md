@@ -348,3 +348,6 @@ Some CAD programs feature air **inflation functionalities and cloth simulation**
 
 [The INFLATOCOOKBOOK](http://inflatocookbook.kadist.org)\
 (http://inflatocookbook.kadist.org)
+
+ [HYDRO-ACTIVE PILLOW STRUCTURES(http://materiability.com/hydro-active-pillow-structures/)\
+(http://materiability.com/hydro-active-pillow-structures/)
