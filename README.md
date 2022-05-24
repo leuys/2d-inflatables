@@ -8,6 +8,8 @@ This manual is intended to share all knowledge gathered while researching ways o
 
 It is seperated into three main chapters: **Sheet material, Tools, and Technique.**
 
+*Author: [Benjamin Unterluggauer](https://leuys.com)*
+
 ---
 
 ## Sheet material
