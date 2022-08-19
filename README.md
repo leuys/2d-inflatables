@@ -345,6 +345,12 @@ Some CAD programs feature air **inflation functionalities and cloth simulation**
 
 ## Further links
 
+[Project Foilweld](https://leuys.com/projects/foilweld)\
+(https://leuys.com/projects/foilweld)
+
+[Industrial design students create inflatable products using air as their "main material"](https://www.dezeen.com/2022/06/07/muthesius-university-air-supply-alcova-milan-design-week/)\
+(https://www.dezeen.com/2022/06/07/muthesius-university-air-supply-alcova-milan-design-week/)
+
 [CNC welding of plastic foil and film – fast product development](https://www.youtube.com/watch?v=KKEZ3mBz4cU)\
 (https://www.youtube.com/watch?v=KKEZ3mBz4cU)
 
@@ -353,3 +359,4 @@ Some CAD programs feature air **inflation functionalities and cloth simulation**
 
 [HYDRO-ACTIVE PILLOW STRUCTURES](http://materiability.com/hydro-active-pillow-structures/)\
 (http://materiability.com/hydro-active-pillow-structures/)
+
